@@ -1,0 +1,74 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Microsoft .NET 8 - Latest stable 8.0.x versions -->
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.Google" Version="8.0.4" />
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.4" />
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="8.0.4" />
+    <PackageVersion Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="8.0.4" />
+    <PackageVersion Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.4" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.4" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.4" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.4" />
+    <PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.4" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.FileExtensions" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
+
+    <!-- Aspire -->
+    <PackageVersion Include="Aspire.Hosting.AppHost" Version="8.0.2" />
+
+    <!-- HealthChecks -->
+    <PackageVersion Include="AspNetCore.HealthChecks.Uris" Version="8.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="8.0.4" />
+
+    <!-- Third-Party Packages (Alphabetical Order) -->
+    <PackageVersion Include="Asp.Versioning.Mvc" Version="8.1.0" />
+    <PackageVersion Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.0" />
+    <PackageVersion Include="Bogus" Version="35.5.1" />
+    <PackageVersion Include="Confluent.Kafka" Version="2.4.0" />
+    <PackageVersion Include="Confluent.SchemaRegistry.Serdes.Avro" Version="2.4.0" />
+    <PackageVersion Include="Dapper" Version="2.1.35" />
+    <PackageVersion Include="Dapr.AspNetCore" Version="1.12.0" />
+    <PackageVersion Include="Duende.IdentityServer" Version="7.1.0" />
+    <PackageVersion Include="EFCore.NamingConventions" Version="8.0.3" />
+    <PackageVersion Include="FluentValidation" Version="11.9.1" />
+    <PackageVersion Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.1" />
+    <PackageVersion Include="MassTransit" Version="8.2.3" />
+    <PackageVersion Include="MassTransit.Kafka" Version="8.2.3" />
+    <PackageVersion Include="MassTransit.MongoDb" Version="8.2.3" />
+    <PackageVersion Include="MassTransit.RabbitMQ" Version="8.2.3" />
+    <PackageVersion Include="MediatR" Version="11.1.0" />
+    <PackageVersion Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
+    <PackageVersion Include="Polly" Version="8.4.1" />
+    <PackageVersion Include="RestEase" Version="1.6.4" />
+    <PackageVersion Include="RestEase.HttpClientFactory" Version="1.6.4" />
+    <PackageVersion Include="Scrutor" Version="4.2.2" />
+    <PackageVersion Include="Serilog" Version="4.0.0" />
+    <PackageVersion Include="Serilog.AspNetCore" Version="8.0.1" />
+    <PackageVersion Include="Serilog.Expressions" Version="4.0.0" />
+    <PackageVersion Include="Serilog.Extensions.Logging" Version="8.0.0" />
+    <PackageVersion Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageVersion Include="Serilog.Sinks.Elasticsearch" Version="10.0.0" />
+    <PackageVersion Include="Serilog.Sinks.File" Version="6.0.0" />
+    <PackageVersion Include="Serilog.Sinks.Seq" Version="7.0.1" />
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageVersion Include="TimeZoneConverter" Version="6.1.0" />
+    <PackageVersion Include="Yarp.ReverseProxy" Version="2.3.0" />
+  </ItemGroup>
+</Project>
