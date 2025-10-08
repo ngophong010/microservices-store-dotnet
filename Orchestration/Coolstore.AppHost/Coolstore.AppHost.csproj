@@ -9,14 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aspire.Hosting.AppHost" />
+    <PackageReference Include="Aspire.Hosting.AppHost"  Version="8.2.2"/>
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\dotnet\api-gateway\Gateway.csproj" />
     <ProjectReference Include="..\..\src\dotnet\identity-server\IdentityServer.csproj" />
     <ProjectReference Include="..\..\src\dotnet\shopping-cart\ShoppingCart.csproj" />
-    <!-- Add other project references here as you modernize them -->
   </ItemGroup>
 
 </Project>
